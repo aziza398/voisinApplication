@@ -1,0 +1,32 @@
+
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+<p class="text-center">
+  <strong>Name:</strong>
+  <%= @voisin.name %>
+</p>
+
+<p class="text-center">
+  <strong>Phone:</strong>
+  <%= @voisin.phone %>
+</p>
+
+<p class="text-center">
+  <strong>Address:</strong>
+  <%= @voisin.address %>
+</p>
+
+<p class="text-center">
+  <strong>About:</strong>
+  <%= @voisin.about %>
+</p>
+
+<p class="text-center">
+  <strong>Favory:</strong>
+  <%= @voisin.favory %>
+</p>
+
+<%= link_to 'Edit', edit_voisin_path(@voisin), class:"btn btn-outline-info" %> |
+<%= link_to 'Back', voisins_path, class:"btn btn-outline-info" %>
+</div>
